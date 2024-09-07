@@ -13,4 +13,5 @@ arch:
 ports:
   7007/tcp: 7007
 docker_api: true
-#image: "ghcr.io/jkpe/{arch}-addon-dozzle-agent"
+apparmor: false
+image: "ghcr.io/jkpe/{arch}-addon-dozzle-agent"

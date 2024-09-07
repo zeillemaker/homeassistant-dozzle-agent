@@ -1,6 +1,6 @@
-# Home Assistant Add-on: Example add-on
+# Home Assistant Add-on: Dozzle Agent
 
-_Example add-on to use as a blueprint for new add-ons._
+_[Dozzle](https://dozzle.dev/) can run in [agent mode](https://dozzle.dev/guide/agent) which can expose Docker hosts to other Dozzle instances. All communication is done over a secured connection using TLS. This means that you can deploy Dozzle on a remote host and connect to it from your local machine._
 
 ![Supports aarch64 Architecture][aarch64-shield]
 ![Supports amd64 Architecture][amd64-shield]
