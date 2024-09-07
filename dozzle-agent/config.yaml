@@ -1,6 +1,6 @@
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
 name: Dozzle Agent
-version: "1.0.0"
+version: "1.0.1"
 slug: dozzle-agent
 description: Dozzle can run in agent mode which can expose Docker hosts to other Dozzle instances. All communication is done over a secured connection using TLS. This means that you can deploy Dozzle on a remote host and connect to it from your local machine.
 url: "https://github.com/jkpe/homeassistant-dozzle-agent/tree/main/dozzle-agent"
@@ -9,7 +9,6 @@ arch:
   - armv7
   - aarch64
   - amd64
-  - i386
 ports:
   7007/tcp: 7007
 docker_api: true
