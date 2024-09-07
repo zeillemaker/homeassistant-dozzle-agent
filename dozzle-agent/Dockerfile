@@ -1,7 +1,5 @@
-FROM amir20/dozzle:latest
+FROM amir20/dozzle:v8.4.1
 
 EXPOSE 7007
-
-ENV DOCKER_SOCK_PATH=/run/docker.sock
 
 ENTRYPOINT ["/dozzle", "agent"]
