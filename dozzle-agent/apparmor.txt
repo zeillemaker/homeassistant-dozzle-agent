@@ -27,6 +27,9 @@ profile example flags=(attach_disconnected,mediate_deleted) {
   # Access to options.json and other files within your addon
   /data/** rw,
 
+  # Allow access to Docker socket
+  /var/run/docker.sock ro,
+
   # Start new profile for service
   /usr/bin/my_program cx -> my_program,
 
