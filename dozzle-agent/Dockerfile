@@ -4,9 +4,9 @@
 
 FROM amir20/dozzle:latest
 
-EXPOSE 8080
+EXPOSE 7007
 
-ENTRYPOINT ["/dozzle"]
+ENTRYPOINT ["/dozzle", "agent"]
 
 # Execute during the build of the image
 #ARG TEMPIO_VERSION BUILD_ARCH
