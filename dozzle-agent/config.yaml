@@ -11,6 +11,13 @@ arch:
   - amd64
 ports:
   7007/tcp: 7007
-docker_api: true
 apparmor: false
+host_dbus: true
+docker_api: true
+privileged:
+  - NET_ADMIN
+  - SYS_ADMIN
+  - SYS_RAWIO
+  - SYS_TIME
+  - SYS_NICE
 #image: "ghcr.io/jkpe/{arch}-addon-dozzle-agent"
