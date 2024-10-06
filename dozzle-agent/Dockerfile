@@ -1,4 +1,4 @@
-FROM amir20/dozzle:v8.4.1
+FROM amir20/dozzle:v8.5.5
 
 EXPOSE 7007
 
